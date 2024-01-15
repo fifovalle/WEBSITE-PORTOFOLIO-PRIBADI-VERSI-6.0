@@ -11,7 +11,7 @@
   --sat: 0%;
   --warna-judul: hsl(var(--hue), var(--sat), 20%);
   --warna-judul-gelap: hsl(var(--hue), var(--sat), 0%);
-  --warna-tekst: hsl(var(--hue), var(--sat), 46%);
+  --warna-teks: hsl(var(--hue), var(--sat), 46%);
   --warna-tubuh: hsl(var(--hue), var(--sat), 98%);
   --warna-container: #fff;
 
@@ -84,7 +84,7 @@ textarea {
 
 body {
   background-color: var(--warna-tubuh);
-  color: var(--warna-tekst);
+  color: var(--warna-teks);
 }
 
 h1,
@@ -135,13 +135,13 @@ img {
 }
 
 /*=============== LAYOUT ===============*/
-.container {
+.wadah {
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.grid {
+.jaringan {
   display: grid;
   gap: 1.5rem;
 }
@@ -172,7 +172,7 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* Untuk perangkat besar */
 @media screen and (max-width: 992px) {
-  .container {
+  .wadah {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
@@ -211,7 +211,7 @@ img {
     --ukuran-font-besar: 2.25rem;
   }
 
-  .container {
+  .wadah {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
