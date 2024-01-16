@@ -75,7 +75,7 @@ html {
 }
 
 body,
-button,
+tombol,
 input,
 textarea {
   font-family: var(--font-tubuh);
@@ -102,7 +102,7 @@ a {
   text-decoration: none;
 }
 
-button {
+tombol {
   cursor: pointer;
   border: none;
   outline: none;
@@ -114,23 +114,23 @@ img {
 }
 
 /*=============== KELAS CSS YANG DAPAT DIGUNAKAN KEMBALI ===============*/
-.section {
+.bagian {
   padding: 6rem 0 2rem;
 }
 
-.section__title {
+.bagian__judul {
   font-size: var(--ukuran-h1);
   color: var(--warna-judul);
 }
 
-.section__subtitle {
+.bagian__subjudul {
   display: block;
   font-size: var(--ukuran-font-kecil);
   margin-bottom: 4rem;
 }
 
-.section__title,
-.section__subtitle {
+.bagian__judul,
+.bagian__subjudul {
   text-align: center;
 }
 
@@ -147,7 +147,7 @@ img {
 }
 
 /*=============== TOMBOL ===============*/
-.button {
+.tombol {
   display: inline-block;
   background-color: var(--warna-judul);
   color: var(--warna-container);
@@ -156,15 +156,15 @@ img {
   font-weight: var(--font-medium);
 }
 
-.button:hover {
+.tombol:hover {
   background-color: var(--warna-judul-gelap);
 }
 
-.button__icon {
+.tombol__ikon {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex {
+.tombol--flex {
   display: inline-flex;
   align-items: center;
 }
@@ -177,11 +177,11 @@ img {
     margin-right: var(--mb-1-5);
   }
 
-  .button {
+  .tombol {
     padding: 1rem 1.75rem;
   }
 
-  .button__icon {
+  .tombol__icon {
     width: 22px;
     height: 22px;
   }
@@ -193,11 +193,11 @@ img {
     margin: 0 0 var(--tinggi-header) 0;
   }
 
-  .section {
+  .bagian {
     padding: 2rem 0 4rem;
   }
 
-  .section__subtitle {
+  .bagian__subjudul {
     margin-bottom: var(--mb-3);
   }
 }
