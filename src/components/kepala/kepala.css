@@ -59,7 +59,7 @@
 
     .menu__navigasibar {
         position: fixed;
-        bottom: 0;
+        bottom: -100%;
         left: 0;
         width: 100%;
         background-color: var(--warna-tubuh);
@@ -67,6 +67,10 @@
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
+    }
+
+    .tampilkan-menu {
+        bottom: 0;
     }
 
     .daftar__navigasibar {
@@ -92,9 +96,24 @@
         color: var(--warna-judul-gelap);
     }
 
+    .beralih__navigasibar {
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
     .ikon__navigasibar,
     .tutup__navigasibar,
     .beralih__navigasibar {
         display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .menu__navigasibar {
+        padding: 2rem 0.25rem 4rem;
+    }
+
+    .daftar__navigasibar {
+        column-gap: 0;
     }
 }

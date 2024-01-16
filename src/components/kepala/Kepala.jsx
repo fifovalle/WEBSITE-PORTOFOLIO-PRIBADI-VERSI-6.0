@@ -1,16 +1,21 @@
 // LIBRARY REACT
-import React from "react";
+import React, { useState } from "react";
 // LIBRARY SAYA
 import "./kepala.css";
 
 const Kepala = () => {
+  const [beralih, tampilkanMenu] = useState(false);
   return (
     <header className="kepala">
       <nav className="wadah navigasibar">
         <a href="index.html" className="logo__navigasibar">
           Naufal
         </a>
-        <div className="menu__navigasibar">
+        <div
+          className={
+            beralih ? "menu__navigasibar tampilkan-menu" : "menu__navigasibar"
+          }
+        >
           <ul className="daftar__navigasibar jaringan">
             <li className="konten__navigasibar">
               <a href="#beranda" className="tautan__navigasibar tautan-aktif">
@@ -44,9 +49,15 @@ const Kepala = () => {
               </a>
             </li>
           </ul>
-          <i className="uil uil-times tutup__navigasibar"></i>
+          <i
+            className="uil uil-times tutup__navigasibar"
+            onClick={() => tampilkanMenu(!beralih)}
+          ></i>
         </div>
-        <div className="beralih__navigasibar">
+        <div
+          className="beralih__navigasibar"
+          onClick={() => tampilkanMenu(!beralih)}
+        >
           <i className="uil uil-apps"></i>
         </div>
       </nav>
