@@ -7,13 +7,13 @@ const Kepala = () => {
   return (
     <header className="kepala">
       <nav className="wadah navigasibar">
-        <a href="index.html" className="nav_logo">
+        <a href="index.html" className="logo__navigasibar">
           Naufal
         </a>
         <div className="menu__navigasibar">
           <ul className="daftar__navigasibar jaringan">
             <li className="konten__navigasibar">
-              <a href="#beranda" className="tautan__navigasibar">
+              <a href="#beranda" className="tautan__navigasibar tautan-aktif">
                 <i className="uil uil-estate ikon__navigasibar"></i> Beranda
               </a>
             </li>
@@ -44,6 +44,10 @@ const Kepala = () => {
               </a>
             </li>
           </ul>
+          <i className="uil uil-times tutup__navigasibar"></i>
+        </div>
+        <div className="beralih__navigasibar">
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>

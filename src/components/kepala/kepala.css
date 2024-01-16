@@ -1,0 +1,100 @@
+.kepala {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--warna-tubuh);
+}
+
+.navigasibar {
+    height: calc(var(--tinggi-header) + 1.5rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.logo__navigasibar,
+.beralih__navigasibar {
+    color: var(--warna-judul);
+    font-weight: var(--font-medium);
+}
+
+.daftar__navigasibar {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.tautan__navigasibar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--ukuran-font-kecil);
+    color: var(--warna-judul);
+    font-weight: var(--font-medium);
+    transition: 0.3s;
+}
+
+.ikon__navigasibar,
+.tutup__navigasibar,
+.beralih__navigasibar {
+    display: none;
+}
+
+.tautan-aktif,
+.tautan__navigasibar:hover {
+    color: var(--warna-judul-gelap);
+}
+
+@media screen and (max-width: 768px) {
+    .kepala {
+        top: initial;
+        bottom: 0;
+    }
+
+    .navigasibar {
+        height: var(--tinggi-header);
+    }
+
+    .menu__navigasibar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--warna-tubuh);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
+
+    .daftar__navigasibar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .ikon__navigasibar {
+        font-size: 1.2rem;
+    }
+
+    .tutup__navigasibar {
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--warna-judul);
+    }
+
+    .tutup__navigasibar:hover {
+        color: var(--warna-judul-gelap);
+    }
+
+    .ikon__navigasibar,
+    .tutup__navigasibar,
+    .beralih__navigasibar {
+        display: block;
+    }
+}

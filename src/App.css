@@ -9,7 +9,7 @@
   /*Mode warna HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --warna-judul: hsl(var(--hue), var(--sat), 20%);
+  --warna-judul: hsl(var(--hue), var(--sat), 40%);
   --warna-judul-gelap: hsl(var(--hue), var(--sat), 0%);
   --warna-teks: hsl(var(--hue), var(--sat), 46%);
   --warna-tubuh: hsl(var(--hue), var(--sat), 98%);
