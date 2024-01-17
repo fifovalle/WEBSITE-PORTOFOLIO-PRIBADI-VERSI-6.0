@@ -10,6 +10,7 @@
   --hue: 0;
   --sat: 0%;
   --warna-judul: hsl(var(--hue), var(--sat), 40%);
+  --warna-judul2: hsl(var(--hue), var(--sat), 10%);
   --warna-judul-gelap: hsl(var(--hue), var(--sat), 0%);
   --warna-teks: hsl(var(--hue), var(--sat), 46%);
   --warna-tubuh: hsl(var(--hue), var(--sat), 98%);
@@ -90,7 +91,7 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--warna-judul);
+  color: var(--warna-judul2);
   font-weight: var(--font-semi-bold);
 }
 
@@ -149,7 +150,7 @@ img {
 /*=============== TOMBOL ===============*/
 .tombol {
   display: inline-block;
-  background-color: var(--warna-judul);
+  background-color: var(--warna-judul2);
   color: var(--warna-container);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
