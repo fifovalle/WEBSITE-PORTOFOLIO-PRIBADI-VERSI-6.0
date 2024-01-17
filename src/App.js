@@ -4,6 +4,7 @@ import React from "react";
 import "./App.css";
 import Kepala from "./components/kepala/Kepala";
 import Beranda from "./components/beranda/Beranda";
+import Tentang from "./components/tentang/Tentang";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Kepala />
       <main className="utama">
         <Beranda />
+        <Tentang />
       </main>
     </>
   );
