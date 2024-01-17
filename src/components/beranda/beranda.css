@@ -1,3 +1,7 @@
+.wadah__beranda {
+    row-gap: 7rem;
+}
+
 .konten__beranda {
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
@@ -25,7 +29,7 @@
     margin-bottom: var(--mb-0-25);
 }
 
-.tangan__beranda {
+.home__hand {
     width: 38px;
     height: 38px;
     margin-left: 0.4rem;
@@ -79,4 +83,34 @@
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+
+.gulir__beranda {
+    margin-left: 9.25rem;
+}
+
+.roda {
+    animation: gulir 2s ease infinite;
+}
+
+@keyframes gulir {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+.nama__gulir-beranda {
+    color: var(--warna-judul);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.panah__gulir-beranda {
+    font-size: 1.25rem;
+    color: var(--warna-judul);
 }

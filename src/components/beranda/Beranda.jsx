@@ -4,6 +4,7 @@ import React from "react";
 import "./beranda.css";
 import Sosial from "./Sosial";
 import Data from "./Data";
+import GulirKebawah from "./GulirKebawah";
 
 const Beranda = () => {
   return (
@@ -14,6 +15,7 @@ const Beranda = () => {
           <div className="img__beranda"></div>
           <Data />
         </div>
+        <GulirKebawah />
       </div>
     </section>
   );

@@ -66,7 +66,7 @@ const Data = () => {
       <a href="#kontak" className="tombol tombol--flex">
         Katakan Halo
         <svg
-          class="button__icon"
+          class="tombol__ikon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

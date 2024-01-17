@@ -9,7 +9,7 @@ const Kepala = () => {
     <header className="kepala">
       <nav className="wadah navigasibar">
         <a href="index.html" className="logo__navigasibar">
-          Naufal
+          Naufal FIFA
         </a>
         <div
           className={
