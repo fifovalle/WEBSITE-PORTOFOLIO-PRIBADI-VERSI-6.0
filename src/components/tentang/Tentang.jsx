@@ -9,7 +9,7 @@ const Tentang = () => {
   return (
     <section className="tentang bagian" id="tentang">
       <h2 className="bagian__judul">Tentang Saya</h2>
-      <span className="bagian__subjudul">Kepo ya?</span>
+      <span className="bagian__subjudul">Penasaran ya?</span>
       <div className="wadah__tentang wadah jaringan">
         <img src={gambarTentang} alt="gambar" className="img__tentang" />
 
