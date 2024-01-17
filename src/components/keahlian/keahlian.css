@@ -49,3 +49,30 @@
 .tingkat__keahlian {
     font-size: var(--ukuran-font-kecil-sekali);
 }
+
+@media screen and (max-width: 992px) {
+    .wadah__keahlian {
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wadah__keahlian {
+        grid-template-columns: 1fr;
+    }
+
+    .konten__keahlian {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .kotak__keahlian {
+        column-gap: 1.25rem;
+    }
+
+    .nama__keahlian {
+        font-size: var(--ukuran-font-kecil);
+    }
+}
