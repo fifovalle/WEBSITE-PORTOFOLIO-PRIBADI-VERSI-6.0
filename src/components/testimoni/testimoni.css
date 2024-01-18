@@ -1,0 +1,35 @@
+.wadah__testimoni {
+    width: 750px;
+}
+
+.kartu__testimoni {
+    background-color: var(--warna-container);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+}
+
+.img__testimoni {
+    width: 60px;
+    border-radius: 3rem;
+    margin-bottom: var(--mb-1);
+}
+
+.nama__testimoni {
+    font-size: var(--ukuran-font-normal);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.deskripsi__testimoni {
+    font-size: var(--ukuran-font-kecil);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--warna-teks) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--warna-judul) !important;
+}
