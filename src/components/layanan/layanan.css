@@ -119,3 +119,43 @@
     opacity: 1;
     visibility: visible;
 }
+
+@media screen and (max-width: 992px) {
+    .wadah__layanan {
+        grid-template-columns: repeat(3, 250px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wadah__layanan {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .konten__layanan {
+        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    }
+
+    .ikon__layanan {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .modal__layanan-konten {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .modal__layanan-deskripsi {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .wadah__layanan {
+        grid-template-columns: max-content;
+    }
+
+    .konten__layanan {
+        padding-right: 6rem;
+    }
+}
