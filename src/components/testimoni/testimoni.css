@@ -33,3 +33,13 @@
 .swiper-pagination-bullet-active {
     background-color: var(--warna-judul) !important;
 }
+
+@media screen and (max-width: 992px) {
+    .wadah__testimoni {
+        width: initial;
+    }
+
+    .kartu__testimoni {
+        padding: 1.25rem 1.5rem;
+    }
+}
