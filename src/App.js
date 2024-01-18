@@ -6,6 +6,7 @@ import Kepala from "./components/kepala/Kepala";
 import Beranda from "./components/beranda/Beranda";
 import Tentang from "./components/tentang/Tentang";
 import Keahlian from "./components/keahlian/Keahlian";
+import Layanan from "./components/layanan/Layanan";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Beranda />
         <Tentang />
         <Keahlian />
+        <Layanan />
       </main>
     </>
   );
