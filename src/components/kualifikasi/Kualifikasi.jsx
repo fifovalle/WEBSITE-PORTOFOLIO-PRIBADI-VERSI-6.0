@@ -48,9 +48,7 @@ const Kualifikasi = () => {
             <div className="data__kualifikasi">
               <div>
                 <h3 className="judul__kualifikasi"> Mahasiswa-IF</h3>
-                <span className="subjudul__kualifikasi">
-                  Universitas Jenderal Achmad Yani
-                </span>
+                <span className="subjudul__kualifikasi">Unjani</span>
                 <div className="kalender__kualifikasi">
                   <i className="uil uil-calendar-alt"> 2022 - Sekarang</i>
                 </div>

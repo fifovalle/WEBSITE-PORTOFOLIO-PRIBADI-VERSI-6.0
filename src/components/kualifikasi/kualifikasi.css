@@ -79,3 +79,34 @@
     background-color: var(--warna-teks);
     transform: translate(6px, -7px);
 }
+
+
+@media screen and (max-width: 992px) {
+    .wadah__kualifikasi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wadah__kualifikasi {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bagian__kualifikasi {
+        grid-template-columns: initial;
+    }
+
+    .tombol__kualifikasi {
+        margin: 0 var(--mb-0-75);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .data__kualifikasi {
+        gap: 0.5rem;
+    }
+}
