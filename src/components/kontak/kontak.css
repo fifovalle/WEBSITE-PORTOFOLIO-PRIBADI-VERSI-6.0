@@ -110,3 +110,34 @@
 .form__kontak-area textarea {
     resize: none;
 }
+
+@media screen and (max-width: 992px) {
+    .wadah__kontak {
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wadah__kontak {
+        grid-template-columns: 1fr;
+        column-gap: 3rem;
+    }
+
+    .info__kontak {
+        justify-content: center;
+    }
+
+    .form__kontak {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .info__kontak {
+        grid-template-columns: 1fr;
+    }
+
+    .form__kontak {
+        width: 100%;
+    }
+}
