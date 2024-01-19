@@ -48,6 +48,7 @@ const Kontak = () => {
                 name="nama"
                 className="form__kontak-input"
                 placeholder="Masukkan Nama Anda"
+                autoComplete="off"
               />
             </div>
             <div className="form__kontak-div">
@@ -57,6 +58,7 @@ const Kontak = () => {
                 name="email"
                 className="form__kontak-input"
                 placeholder="Masukkan Email Anda"
+                autoComplete="off"
               />
             </div>
             <div className="form__kontak-div form__kontak-area">
@@ -67,6 +69,7 @@ const Kontak = () => {
                 rows="10"
                 className="form__kontak-input"
                 placeholder="Tuliskan Proyek Anda"
+                autoComplete="off"
               ></textarea>
             </div>
             <button className="tombol tombol--flex">
