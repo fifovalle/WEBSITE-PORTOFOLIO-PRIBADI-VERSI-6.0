@@ -10,6 +10,7 @@ import Layanan from "./components/layanan/Layanan";
 import Kualifikasi from "./components/kualifikasi/Kualifikasi";
 import Testimoni from "./components/testimoni/Testimoni";
 import Kontak from "./components/kontak/Kontak";
+import Kaki from "./components/kaki/Kaki";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Kualifikasi />
         <Testimoni />
         <Kontak />
+        <Kaki />
       </main>
     </>
   );

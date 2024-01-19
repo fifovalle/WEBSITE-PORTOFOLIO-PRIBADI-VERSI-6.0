@@ -10,7 +10,7 @@ import { Data } from "./Data";
 
 const Testimoni = () => {
   return (
-    <section className="testimoni wadah bagian">
+    <section className="testimoni wadah bagian" id="testimoni">
       <h2 className="bagian__judul">Pelanggan Saya Bilang</h2>
       <span className="bagian__subjudul">Testimoni Pelanggan</span>
       <Swiper
