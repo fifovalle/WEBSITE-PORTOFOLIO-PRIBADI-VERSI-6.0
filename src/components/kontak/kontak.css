@@ -1,0 +1,112 @@
+.wadah__kontak {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+}
+
+.judul__kontak {
+    text-align: center;
+    font-size: var(--ukuran-h3);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.info__kontak {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: 300px;
+}
+
+.form__kontak {
+    width: 360px;
+}
+
+.kartu__kontak {
+    background-color: var(--warna-container);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.ikon__kartu-kontak {
+    font-size: 2rem;
+    color: var(--warna-judul);
+    margin-bottom: var(--mb-0-25);
+}
+
+.judul__kartu-kontak,
+.data__kartu-kontak {
+    font-size: var(--ukuran-font-kecil);
+}
+
+.judul__kartu-kontak {
+    font-weight: var(--font-medium);
+}
+
+.data__kartu-kontak {
+    display: block;
+    margin-bottom: var(--mb-0-75);
+}
+
+.tombol__kontak {
+    color: var(--warna-teks);
+    font-size: var(--ukuran-font-kecil);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.ikon__tombol-kontak {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.tombol__kontak:hover .ikon__tombol-kontak {
+    transform: translateX(0.25rem);
+}
+
+.form__kontak {
+    width: 360px;
+}
+
+.form__kontak-div {
+    position: relative;
+    margin-bottom: var(--mb-2);
+    height: 4rem;
+}
+
+.form__kontak-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    background: none;
+    color: var(--warna-teks);
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.form__kontak-label {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: var(--ukuran-font-lebih-kecil);
+    padding: 0.25rem;
+    background-color: var(--warna-tubuh);
+    z-index: 10;
+}
+
+.form__kontak-area {
+    height: 11rem;
+}
+
+.form__kontak-area textarea {
+    resize: none;
+}

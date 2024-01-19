@@ -9,6 +9,7 @@ import Keahlian from "./components/keahlian/Keahlian";
 import Layanan from "./components/layanan/Layanan";
 import Kualifikasi from "./components/kualifikasi/Kualifikasi";
 import Testimoni from "./components/testimoni/Testimoni";
+import Kontak from "./components/kontak/Kontak";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Layanan />
         <Kualifikasi />
         <Testimoni />
+        <Kontak />
       </main>
     </>
   );
