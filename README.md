@@ -37,6 +37,7 @@ Berikut adalah beberapa tampilan halaman website :
 ![Screenshot 2024-01-20 122627](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-6.0/assets/90078068/fa7e5852-4529-4705-9a62-15814d67dd1f)
 ![Screenshot 2024-01-20 122636](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-6.0/assets/90078068/23645758-3412-4c00-913e-7d4d0320fa92)
 ![Screenshot 2024-01-20 122641](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-6.0/assets/90078068/a4a10e58-e457-43b8-9ac5-e36710779314)
+![Screenshot 2024-01-20 123500](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-6.0/assets/90078068/f5fea85f-b6d5-417a-b24e-af7c690b2d69)
 
 ## 📬 Kontak
 
