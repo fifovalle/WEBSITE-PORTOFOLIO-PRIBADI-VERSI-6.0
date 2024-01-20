@@ -19,7 +19,7 @@ const Beranda = () => {
             variants={Muncul("atas", 0.3)}
             initial="hilang"
             whileInView={"ada"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0 }}
             className="img__beranda"
           ></motion.div>
           <Data />

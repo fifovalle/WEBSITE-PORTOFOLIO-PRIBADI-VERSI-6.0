@@ -1,19 +1,52 @@
 // LIBRARY REACT
 import React from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
 // LIBRARY SAYA
 import "./tentang.css";
 import gambarTentang from "../../assets/1.jpg";
 import Info from "./Info";
+import { Muncul } from "../../utils/AnimasiHalaman";
 
 const Tentang = () => {
   return (
     <section className="tentang bagian" id="tentang">
-      <h2 className="bagian__judul">Tentang Saya</h2>
-      <span className="bagian__subjudul">Penasaran ya?</span>
+      <motion.h2
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__judul"
+      >
+        Tentang Saya
+      </motion.h2>
+      <motion.span
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__subjudul"
+      >
+        Penasaran ya?
+      </motion.span>
       <div className="wadah__tentang wadah jaringan">
-        <img src={gambarTentang} alt="gambar" className="img__tentang" />
+        <motion.img
+          variants={Muncul("atas", 0.3)}
+          initial="hilang"
+          whileInView={"ada"}
+          viewport={{ once: false, amount: 0 }}
+          src={gambarTentang}
+          alt="gambar"
+          className="img__tentang"
+        />
 
-        <div className="data__tentang">
+        <motion.div
+          variants={Muncul("atas", 0.3)}
+          initial="hilang"
+          whileInView={"ada"}
+          viewport={{ once: false, amount: 0 }}
+          className="data__tentang"
+        >
           <Info />
           <p className="deskripsi__tentang">
             Halo, saya Naufal Fadhil Ihsan Fikri Ash Shadiqi, seorang pengembang
@@ -51,7 +84,7 @@ const Tentang = () => {
               ></path>
             </svg>
           </a>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

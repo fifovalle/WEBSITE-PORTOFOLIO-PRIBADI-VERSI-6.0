@@ -11,7 +11,7 @@ const GulirKebawah = () => {
       variants={Muncul("bawah", 0.3)}
       initial="hilang"
       whileInView={"ada"}
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: false, amount: 0 }}
       className="gulir__beranda"
     >
       <a href="#tentang" className="tombol__gulir-beranda tombol--flex">

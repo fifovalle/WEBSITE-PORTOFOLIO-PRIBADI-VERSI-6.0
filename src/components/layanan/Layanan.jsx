@@ -1,6 +1,9 @@
 // LIBRARY REACT
 import React, { useState } from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
 // LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 import "./layanan.css";
 
 const Layanan = () => {
@@ -11,10 +14,32 @@ const Layanan = () => {
   };
   return (
     <div className="layanan bagian" id="layanan">
-      <h2 className="bagian__judul">Layanan</h2>
-      <span className="bagian__subjudul">Apa Yang Saya Tawarkan</span>
+      <motion.h2
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__judul"
+      >
+        Layanan
+      </motion.h2>
+      <motion.span
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__subjudul"
+      >
+        Apa Yang Saya Tawarkan
+      </motion.span>
 
-      <div className="wadah__layanan wadah jaringan">
+      <motion.div
+        variants={Muncul("atas", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="wadah__layanan wadah jaringan"
+      >
         <div className="konten__layanan">
           <div>
             <i className="uil uil-web-grid ikon__layanan"></i>
@@ -165,7 +190,7 @@ const Layanan = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -4,7 +4,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // LIBRARY EMAILJS
 import emailjs from "@emailjs/browser";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
 // LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 import "./kontak.css";
 
 const Kontak = () => {
@@ -67,9 +70,31 @@ const Kontak = () => {
 
   return (
     <section className="kontak bagian" id="kontak">
-      <h2 className="bagian__judul">Terhubung Dengan Saya</h2>
-      <span className="bagian__subjudul">Kontak Saya</span>
-      <div className="wadah__kontak wadah jaringan">
+      <motion.h2
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__judul"
+      >
+        Terhubung Dengan Saya
+      </motion.h2>
+      <motion.span
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__subjudul"
+      >
+        Kontak Saya
+      </motion.span>
+      <motion.div
+        variants={Muncul("atas", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="wadah__kontak wadah jaringan"
+      >
         <div className="konten__kontak">
           <h3 className="judul__kontak">Hubungi Saya</h3>
           <div className="info__kontak">
@@ -146,7 +171,7 @@ const Kontak = () => {
             </button>
           </form>
         </div>
-      </div>
+      </motion.div>
       <ToastContainer />
     </section>
   );

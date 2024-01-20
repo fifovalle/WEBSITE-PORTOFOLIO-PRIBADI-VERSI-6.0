@@ -1,6 +1,9 @@
 // LIBRARY REACT
 import React from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
 // LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 import "./keahlian.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
@@ -8,13 +11,35 @@ import Backend from "./Backend";
 const Keahlian = () => {
   return (
     <div className="keahlian bagian" id="keahlian">
-      <h2 className="bagian__judul">Keahlian</h2>
-      <span className="bagian__subjudul">Tingkat Keahlian Saya</span>
+      <motion.h2
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__judul"
+      >
+        Keahlian
+      </motion.h2>
+      <motion.span
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__subjudul"
+      >
+        Tingkat Keahlian Saya
+      </motion.span>
 
-      <div className="wadah__keahlian wadah jaringan">
+      <motion.div
+        variants={Muncul("atas", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="wadah__keahlian wadah jaringan"
+      >
         <Frontend />
         <Backend />
-      </div>
+      </motion.div>
     </div>
   );
 };

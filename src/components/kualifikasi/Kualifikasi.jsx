@@ -1,6 +1,9 @@
 // LIBRARY REACT
 import React, { useState } from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
 // LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 import "./kualifikasi.css";
 
 const Kualifikasi = () => {
@@ -10,10 +13,32 @@ const Kualifikasi = () => {
   };
   return (
     <section className="kualifikasi bagian" id="kualifikasi">
-      <h2 className="bagian__judul">Kualifikasi</h2>
-      <span className="bagian__subjudul">Jurnal Pribadi Saya</span>
+      <motion.h2
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__judul"
+      >
+        Kualifikasi
+      </motion.h2>
+      <motion.span
+        variants={Muncul("bawah", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="bagian__subjudul"
+      >
+        Jurnal Pribadi Saya
+      </motion.span>
 
-      <div className="wadah__kualifikasi wadah">
+      <motion.div
+        variants={Muncul("atas", 0.3)}
+        initial="hilang"
+        whileInView={"ada"}
+        viewport={{ once: false, amount: 0 }}
+        className="wadah__kualifikasi wadah"
+      >
         <div className="tabs__kualifikasi">
           <div
             className={
@@ -141,7 +166,7 @@ const Kualifikasi = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
