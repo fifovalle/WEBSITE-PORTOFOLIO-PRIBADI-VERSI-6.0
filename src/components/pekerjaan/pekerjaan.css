@@ -66,3 +66,47 @@
     background-color: var(--warna-judul);
     color: var(--warna-container);
 }
+
+@media screen and (max-width: 992px) {
+    .wadah__pekerjaan {
+        gap: 1.25rem;
+    }
+
+    .kartu__pekerjaan {
+        padding: 1rem;
+    }
+
+    .gambar__pekerjaan {
+        margin-bottom: 0.75rem;
+    }
+
+    .nama__pekerjaan {
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wadah__pekerjaan {
+        grid-template-columns: max-content;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wadah__pekerjaan {
+        grid-template-columns: 1fr;
+    }
+
+    .gambar__pekerjaan {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .item__proyek {
+        font-size: var(--ukuran-font-kecil);
+    }
+
+    .memfilter__proyek {
+        column-gap: 0.25rem;
+    }
+}
