@@ -1,6 +1,6 @@
-import gambar1 from "../../assets/testimonial1.png";
-import gambar2 from "../../assets/testimonial2.png";
-import gambar3 from "../../assets/testimonial3.png";
+import gambar1 from "../../assets/testimonial1.jpg";
+import gambar2 from "../../assets/testimonial2.jpg";
+import gambar3 from "../../assets/testimonial3.jpg";
 
 export const Data = [
   {
@@ -8,18 +8,20 @@ export const Data = [
     gambar: gambar1,
     nama: "Pa Budi",
     deskripsi:
-      "Mantap tidak kecewa sama sekali sampai sekarang saya masih menyewa naufal untuk memelihara website.",
+      "Saya sangat terkesan dengan keberagaman produk yang ditawarkan oleh situs ini. Kualitas produknya luar biasa dan pelayanan pelanggan sangat responsif. Setiap kali saya berbelanja di sini, saya selalu mendapatkan pengalaman yang menyenangkan.",
   },
   {
     id: 2,
     gambar: gambar2,
     nama: "Pa Heri",
-    deskripsi: "Saya sangat senang dengan kecepatan website ini.",
+    deskripsi:
+      "Situs ini benar-benar memanjakan pelanggannya. produk berkualitas tinggi, dan antarmuka pengguna yang ramah. Saya sangat merekomendasikan situs ini kepada semua orang yang mencari website yang bagus.",
   },
   {
     id: 3,
     gambar: gambar3,
-    nama: "Pa Eko",
-    deskripsi: "Saya sangat senang dengan kecepatan website ini.",
+    nama: "Mas Feri",
+    deskripsi:
+      "Situs ini sangat bagus. Pelayanan pelanggan yang ramah dan responsif. Saya sangat merekomendasikan situs ini ke semua pelanggannya.",
   },
 ];
