@@ -1,10 +1,20 @@
 // LIBRARY REACT
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
+// LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 
 const Data = () => {
   return (
-    <div className="data__beranda">
+    <motion.div
+      variants={Muncul("bawah", 0.3)}
+      initial="hilang"
+      whileInView={"ada"}
+      viewport={{ once: false, amount: 0.7 }}
+      className="data__beranda"
+    >
       <h1 className="judul__beranda">
         Naufal FIFA
         <svg
@@ -104,7 +114,7 @@ const Data = () => {
           ></path>
         </svg>
       </a>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,9 +1,19 @@
 // LIBRARY REACT
 import React from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
+// LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 
 const GulirKebawah = () => {
   return (
-    <div className="gulir__beranda">
+    <motion.div
+      variants={Muncul("bawah", 0.3)}
+      initial="hilang"
+      whileInView={"ada"}
+      viewport={{ once: false, amount: 0.7 }}
+      className="gulir__beranda"
+    >
       <a href="#tentang" className="tombol__gulir-beranda tombol--flex">
         <svg
           width="32px"
@@ -43,7 +53,7 @@ const GulirKebawah = () => {
         <span className="nama__gulir-beranda">Gulir Kebawah</span>
         <i className="uil uil-arrow-down panah__gulir-beranda"></i>
       </a>
-    </div>
+    </motion.div>
   );
 };
 

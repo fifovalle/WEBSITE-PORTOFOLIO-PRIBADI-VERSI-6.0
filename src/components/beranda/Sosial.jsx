@@ -1,9 +1,19 @@
 // LIBRARY REACT
 import React from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
+// LIBRARY SAYA
+import { Muncul } from "../../utils/AnimasiHalaman";
 
 const Sosial = () => {
   return (
-    <div className="sosial__beranda">
+    <motion.div
+      variants={Muncul("atas", 0.3)}
+      initial="hilang"
+      whileInView={"ada"}
+      viewport={{ once: false, amount: 0.7 }}
+      className="sosial__beranda"
+    >
       <a
         href="https://www.instagram.com/fif_ovalle/"
         className="sosial__beranda-ikon"
@@ -36,7 +46,7 @@ const Sosial = () => {
       >
         <i className="uil uil-youtube"></i>
       </a>
-    </div>
+    </motion.div>
   );
 };
 
