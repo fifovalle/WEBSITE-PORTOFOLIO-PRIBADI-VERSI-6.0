@@ -1,8 +1,11 @@
 // LIBRARY REACT
 import React, { useEffect, useState } from "react";
+// LIBRARY FRAMER MOTION
+import { motion } from "framer-motion";
 // LIBRARY SAYA
 import { dataProyek, navigasiProyek } from "./Data";
 import DaftarProyek from "./DaftarProyek";
+import { Muncul } from "../../utils/AnimasiHalaman";
 
 const Proyek = () => {
   const [item, setItem] = useState({ nama: "Semua" });
@@ -25,7 +28,12 @@ const Proyek = () => {
     setAktif(index);
   };
   return (
-    <div>
+    <motion.div
+      variants={Muncul("atas", 0.3)}
+      initial="hilang"
+      whileInView={"ada"}
+      viewport={{ once: false, amount: 0 }}
+    >
       <div className="memfilter__proyek">
         {navigasiProyek.map((item, index) => {
           return (
@@ -47,7 +55,7 @@ const Proyek = () => {
           return <DaftarProyek item={item} key={item.id} />;
         })}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
