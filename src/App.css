@@ -1,6 +1,24 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/*=============== SCROLLBAR CSS ===============*/
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--warna-tubuh);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--warna-judul);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--warna-judul-gelap);
+}
+
 /*=============== VARIABEL CSS ===============*/
 :root {
   --tinggi-header: 3rem;
@@ -203,8 +221,7 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* Untuk perangkat kecil */
 @media screen and (max-width: 350px) {
