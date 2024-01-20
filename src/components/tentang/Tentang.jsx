@@ -16,10 +16,12 @@ const Tentang = () => {
         <div className="data__tentang">
           <Info />
           <p className="deskripsi__tentang">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-            iusto quo fugit at molestiae vel minus provident, totam ullam id et
-            inventore, atque temporibus quos mollitia, animi aperiam. Aliquam,
-            enim.
+            Halo, saya Naufal Fadhil Ihsan Fikri Ash Shadiqi, seorang pengembang
+            web dengan pengalaman 1 tahun. Ahli dalam HTML, CSS, JavaScript,
+            Bootstrap, Tailwind, Git, React, SASS, dan Next JS di frontend. Di
+            backend, saya mahir dalam PHP, Node JS, dan Firebase. Juga memiliki
+            pengetahuan dalam MySQL, SQL, MongoDB, dan Java. Siap memberikan
+            dukungan aktif 5/5.
           </p>
           <a download="" href="cv.pdf" className="tombol tombol--flex">
             Unduh CV

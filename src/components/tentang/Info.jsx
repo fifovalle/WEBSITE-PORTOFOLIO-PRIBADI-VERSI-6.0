@@ -17,7 +17,7 @@ const Info = () => {
       <div className="kotak__tentang">
         <i className="bx bx-support ikon__tentang"></i>
         <h3 className="judul__tentang">Pendukung</h3>
-        <span className="subjudul__tentang">24/7 Aktif</span>
+        <span className="subjudul__tentang">5/5 Aktif</span>
       </div>
     </div>
   );
