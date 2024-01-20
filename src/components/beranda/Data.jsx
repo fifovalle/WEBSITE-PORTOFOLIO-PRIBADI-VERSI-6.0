@@ -1,5 +1,6 @@
 // LIBRARY REACT
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Data = () => {
   return (
@@ -56,7 +57,27 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="subjudul__beranda">Web Developer</h3>
+      <h3 className="subjudul__beranda">
+        <TypeAnimation
+          sequence={[
+            "Web Developer",
+            2000,
+            "Front-End Developer",
+            2000,
+            "Back-End Developer",
+            2000,
+            "Mahasiswa",
+            2000,
+            "Konten Kreator",
+            2000,
+            "Freelancer",
+            2000,
+          ]}
+          wrapper="span"
+          speed={50}
+          repeat={Infinity}
+        />
+      </h3>
       <p className="deskripsi__beranda">
         Saya Naufal Fadhil Ihsan Fikri Ash Shidqi, seorang mahasiswa yang juga
         merupakan konten kreator dan pengembang front-end web dengan keahlian
