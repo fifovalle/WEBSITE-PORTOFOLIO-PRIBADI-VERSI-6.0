@@ -54,3 +54,11 @@
     text-align: center;
     font-size: var(--ukuran-font-lebih-kecil);
 }
+
+@media screen and (max-width: 992px) {
+    .tautan__sosial-kaki {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+}
