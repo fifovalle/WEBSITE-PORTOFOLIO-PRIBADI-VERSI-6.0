@@ -11,6 +11,7 @@ import Kualifikasi from "./components/kualifikasi/Kualifikasi";
 import Testimoni from "./components/testimoni/Testimoni";
 import Kontak from "./components/kontak/Kontak";
 import Kaki from "./components/kaki/Kaki";
+import GulirKeatas from "./components/gulirkeatas/GulirKeatas";
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
         <Kualifikasi />
         <Testimoni />
         <Kontak />
-        <Kaki />
       </main>
+      <Kaki />
+      <GulirKeatas />
     </>
   );
 }

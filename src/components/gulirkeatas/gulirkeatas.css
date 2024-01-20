@@ -1,0 +1,24 @@
+.gulirkeatas {
+    position: fixed;
+    right: 2.5rem;
+    bottom: -20%;
+    background-color: var(--warna-judul);
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+
+.ikon__gulirkeatas {
+    font-size: 1.5rem;
+    color: var(--warna-container);
+}
+
+.gulirkeatas:hover {
+    background-color: var(--warna-judul-gelap);
+}
+
+.perlihatkan {
+    bottom: 3rem;
+}
