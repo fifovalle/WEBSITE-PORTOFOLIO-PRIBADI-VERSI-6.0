@@ -1,0 +1,56 @@
+.kaki {
+    background-color: var(--warna-container);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wadah__kaki {
+    padding: 2rem 0 6rem;
+}
+
+.judul__kaki,
+.tautan__kaki {
+    color: var(--warna-judul);
+}
+
+.judul__kaki {
+    text-align: center;
+    margin-bottom: var(--mb-2);
+}
+
+.tautan__kaki:hover {
+    color: var(--warna-judul-gelap);
+}
+
+.daftar__kaki {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.sosial__kaki {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.25rem;
+}
+
+.tautan__sosial-kaki {
+    background-color: var(--warna-judul);
+    color: var(--warna-container);
+    font-size: 1.125rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+
+.tautan__sosial-kaki:hover {
+    background-color: var(--warna-judul-gelap);
+}
+
+.kaki__hak-cipta {
+    display: block;
+    margin-top: 4.5rem;
+    color: var(--warna-judul);
+    text-align: center;
+    font-size: var(--ukuran-font-lebih-kecil);
+}
