@@ -38,7 +38,7 @@ const Kaki = () => {
           </li>
           <li>
             <a href="#testimoni" className="tautan__kaki">
-              Terstimoni
+              Testimoni
             </a>
           </li>
         </motion.ul>

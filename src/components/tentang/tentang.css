@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 368px) {
     .info__tentang {
         grid-template-columns: repeat(2, 1fr);
     }
