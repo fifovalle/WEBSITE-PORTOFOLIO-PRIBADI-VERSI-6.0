@@ -12,7 +12,7 @@ const Info = () => {
       <div className="kotak__tentang">
         <i className="bx bx-briefcase-alt ikon__tentang"></i>
         <h3 className="judul__tentang">Menyelesaikan</h3>
-        <span className="subjudul__tentang">12 + Proyek</span>
+        <span className="subjudul__tentang">22 Proyek</span>
       </div>
       <div className="kotak__tentang">
         <i className="bx bx-support ikon__tentang"></i>

@@ -43,10 +43,7 @@ const Layanan = () => {
         <div className="konten__layanan">
           <div>
             <i className="uil uil-web-grid ikon__layanan"></i>
-            <h3 className="judul__layanan">
-              Pengembangan <br />
-              Web
-            </h3>
+            <h3 className="judul__layanan">Jasa Frontend</h3>
           </div>
 
           <span className="tombol__layanan" onClick={() => bukakanModal(1)}>
@@ -64,31 +61,43 @@ const Layanan = () => {
                 onClick={() => bukakanModal(0)}
                 className="uil uil-times modal__layanan-tutup"
               ></i>
-              <h3 className="modal__layanan-judul">Pengembangan Web</h3>
+              <h3 className="modal__layanan-judul">Jasa Frontend</h3>
               <p className="modal__layanan-deskripsi">
-                Membangun situs web dan aplikasi interaktif yang tidak hanya
-                estetis tetapi juga fungsional. Dengan menggunakan teknologi
-                seperti React, Node.js, dan Next.js, kami menghadirkan solusi
-                yang responsif dan sesuai dengan standar pengembangan terkini.
+                Layanan ini mencakup pembuatan antarmuka pengguna yang menarik
+                dan responsif menggunakan HTML, CSS, dan JavaScript. Anda juga
+                dapat menawarkan integrasi dengan framework seperti Bootstrap
+                atau Tailwind untuk mempercepat proses desain. Selain itu,
+                layanan ini mencakup pembuatan aplikasi web interaktif dan
+                visualisasi 3D menggunakan teknologi seperti React, Next JS,
+                Three JS, dan SASS.
               </p>
 
               <ul className="modal__layanan-daftar jaringan">
                 <li className="modal__layanan-daftar-item">
                   <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
                   <p className="modal__layanan-info">
-                    Layanan Pengembangan Situs Web Full Stack
+                    Desain dan pembuatan antarmuka pengguna menggunakan HTML,
+                    CSS, dan JavaScript.
                   </p>
                 </li>
                 <li className="modal__layanan-daftar-item">
                   <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
                   <p className="modal__layanan-info">
-                    Layanan Pengembangan Aplikasi Web Interaktif
+                    Penggunaan framework seperti Bootstrap atau Tailwind untuk
+                    desain responsif dan menarik.
                   </p>
                 </li>
                 <li className="modal__layanan-daftar-item">
                   <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
                   <p className="modal__layanan-info">
-                    Layanan Integrasi Basis Data
+                    Pembuatan aplikasi web interaktif dengan menggunakan React,
+                    Next JS, atau SASS.
+                  </p>
+                </li>
+                <li className="modal__layanan-daftar-item">
+                  <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
+                  <p className="modal__layanan-info">
+                    Integrasi animasi dan visualisasi 3D menggunakan Three JS.
                   </p>
                 </li>
               </ul>
@@ -99,9 +108,7 @@ const Layanan = () => {
         <div className="konten__layanan">
           <div>
             <i className="uil uil-setting ikon__layanan"></i>
-            <h3 className="judul__layanan">
-              Optimisasi <br /> Pemeliharaan
-            </h3>
+            <h3 className="judul__layanan">Jasa Backend</h3>
           </div>
 
           <span className="tombol__layanan" onClick={() => bukakanModal(2)}>
@@ -119,27 +126,43 @@ const Layanan = () => {
                 onClick={() => bukakanModal(0)}
                 className="uil uil-times modal__layanan-tutup"
               ></i>
-              <h3 className="modal__layanan-judul">
-                {" "}
-                Optimisasi <br /> Pemeliharaan
-              </h3>
+              <h3 className="modal__layanan-judul"> Jasa Backend</h3>
               <p className="modal__layanan-deskripsi">
-                Menyediakan layanan pemeliharaan kode untuk memastikan kualitas
-                dan keamanan aplikasi, serta melakukan audit keamanan untuk
-                melindungi dari potensi kerentanan.
+                Layanan ini fokus pada pengembangan backend untuk aplikasi web,
+                termasuk penyusunan basis data menggunakan MySQL, SQL, atau
+                MongoDB. Anda dapat menawarkan integrasi dengan PHP, Node JS,
+                atau Firebase untuk membuat backend yang efisien dan aman.
+                Layanan ini juga mencakup pengaturan keamanan dan otentikasi
+                pengguna menggunakan Firebase Authentication atau JWT.
               </p>
 
               <ul className="modal__layanan-daftar jaringan">
                 <li className="modal__layanan-daftar-item">
                   <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
                   <p className="modal__layanan-info">
-                    Layanan Optimisasi dan Pemeliharaan Kode
+                    Pengembangan backend menggunakan PHP, Node JS, atau
+                    Firebase.
                   </p>
                 </li>
                 <li className="modal__layanan-daftar-item">
                   <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
                   <p className="modal__layanan-info">
-                    Layanan Audit Keamanan Aplikasi Web
+                    Penyusunan basis data dengan MySQL, SQL, atau MongoDB untuk
+                    penyimpanan dan pengelolaan data.
+                  </p>
+                </li>
+                <li className="modal__layanan-daftar-item">
+                  <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
+                  <p className="modal__layanan-info">
+                    Implementasi RESTful API untuk komunikasi antara frontend
+                    dan backend.
+                  </p>
+                </li>
+                <li className="modal__layanan-daftar-item">
+                  <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
+                  <p className="modal__layanan-info">
+                    Pengaturan keamanan dan otentikasi pengguna menggunakan
+                    Firebase Authentication atau JWT.
                   </p>
                 </li>
               </ul>
@@ -150,10 +173,7 @@ const Layanan = () => {
         <div className="konten__layanan">
           <div>
             <i className="uil uil-web-section ikon__layanan"></i>
-            <h3 className="judul__layanan">
-              Pengembangan <br />
-              E-commerce
-            </h3>
+            <h3 className="judul__layanan">Jasa Aplikasi</h3>
           </div>
 
           <span className="tombol__layanan" onClick={() => bukakanModal(3)}>
@@ -171,19 +191,35 @@ const Layanan = () => {
                 onClick={() => bukakanModal(0)}
                 className="uil uil-times modal__layanan-tutup"
               ></i>
-              <h3 className="modal__layanan-judul"> Pengembangan E-commerce</h3>
+              <h3 className="modal__layanan-judul"> Jasa Aplikasi</h3>
               <p className="modal__layanan-deskripsi">
-                Merancang dan mengembangkan situs web e-commerce yang tidak
-                hanya menarik tetapi juga efisien. Dengan penekanan pada
-                pengalaman pengguna dan fungsionalitas transaksi yang mulus,
-                kami mendukung pertumbuhan bisnis online Anda.
+                Layanan ini mencakup pembuatan aplikasi berbasis web dengan
+                fitur lanjutan menggunakan Next JS dan integrasi fitur real-time
+                menggunakan Node JS atau Firebase Realtime Database. Anda dapat
+                menawarkan penggunaan TypeScript untuk mengoptimalkan
+                pengembangan dan mencegah kesalahan pada saat kompilasi.
               </p>
 
               <ul className="modal__layanan-daftar jaringan">
                 <li className="modal__layanan-daftar-item">
                   <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
                   <p className="modal__layanan-info">
-                    Layanan Pengembangan Situs Web E-commerce
+                    Pembuatan aplikasi berbasis web dengan fitur lanjutan
+                    menggunakan Next JS.
+                  </p>
+                </li>
+                <li className="modal__layanan-daftar-item">
+                  <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
+                  <p className="modal__layanan-info">
+                    Integrasi fitur real-time menggunakan Node JS atau Firebase
+                    Realtime Database.
+                  </p>
+                </li>
+                <li className="modal__layanan-daftar-item">
+                  <i className="uil uil-check-circle modal__layanan-daftar-ikon"></i>
+                  <p className="modal__layanan-info">
+                    Penggunaan TypeScript untuk mengoptimalkan pengembangan dan
+                    mencegah kesalahan pada saat kompilasi.
                   </p>
                 </li>
               </ul>

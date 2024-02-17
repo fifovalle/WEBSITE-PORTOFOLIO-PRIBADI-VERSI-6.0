@@ -1,90 +1,90 @@
 .wadah__tentang {
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
 }
 
 .img__tentang {
-    width: 350px;
-    border-radius: 1.5rem;
-    justify-self: center;
+  width: 350px;
+  border-radius: 1.5rem;
+  justify-self: center;
 }
 
 .info__tentang {
-    grid-template-columns: repeat(3, 150px);
-    gap: 0.5rem;
-    margin-bottom: var(--mb-2);
+  grid-template-columns: repeat(3, 150px);
+  gap: 0.5rem;
+  margin-bottom: var(--mb-2);
 }
 
 .kotak__tentang {
-    background-color: var(--warna-container);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.75rem;
-    text-align: center;
-    padding: 1rem 1.25rem;
+  background-color: var(--warna-container);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 1rem 1.25rem;
 }
 
 .ikon__tentang {
-    font-size: 1.5rem;
-    color: var(--warna-judul);
-    margin-bottom: var(--mb-0-5);
+  font-size: 1.5rem;
+  color: var(--warna-judul);
+  margin-bottom: var(--mb-0-5);
 }
 
 .judul__tentang {
-    font-size: var(--ukuran-font-kecil);
-    font-weight: var(--font-medium);
+  font-size: var(--ukuran-font-kecil);
+  font-weight: var(--font-medium);
 }
 
 .subjudul__tentang {
-    font-size: var(--ukuran-font-kecil-sekali);
+  font-size: var(--ukuran-font-kecil-sekali);
 }
 
 .deskripsi__tentang {
-    padding: 0 1rem 0 0;
-    margin-bottom: var(--mb-2-5);
-    text-align: justify;
+  padding: 0 1rem 0 0;
+  margin-bottom: var(--mb-2-5);
+  text-align: justify;
 }
 
 @media screen and (max-width: 992px) {
-    .wadah__tentang {
-        grid-template-columns: 1fr;
-        row-gap: 2.5rem;
-    }
+  .wadah__tentang {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
 
-    .img__tentang {
-        width: 220px;
-    }
+  .img__tentang {
+    width: 220px;
+  }
 
-    .kotak__tentang {
-        padding: 0.75rem 0.5rem;
-    }
+  .kotak__tentang {
+    padding: 0.75rem 0.5rem;
+  }
 
-    .data__tentang {
-        text-align: center;
-    }
+  .data__tentang {
+    text-align: center;
+  }
 
-    .info__tentang {
-        justify-content: center;
-    }
+  .info__tentang {
+    justify-content: center;
+  }
 
-    .deskripsi__tentang {
-        padding: 0 5rem;
-        margin-bottom: 2rem;
-    }
+  .deskripsi__tentang {
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    .info__tentang {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .info__tentang {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .deskripsi__tentang {
-        padding: 0;
-    }
+  .deskripsi__tentang {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 368px) {
-    .info__tentang {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .info__tentang {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

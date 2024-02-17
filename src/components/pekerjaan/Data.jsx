@@ -8,6 +8,18 @@ import Gambar7 from "../../assets/proyek7.png";
 import Gambar8 from "../../assets/proyek8.png";
 import Gambar9 from "../../assets/proyek9.png";
 import Gambar10 from "../../assets/proyek10.png";
+import Gambar11 from "../../assets/proyek11.png";
+import Gambar12 from "../../assets/proyek12.png";
+import Gambar13 from "../../assets/proyek13.png";
+import Gambar14 from "../../assets/proyek14.png";
+import Gambar15 from "../../assets/proyek15.png";
+import Gambar16 from "../../assets/proyek16.png";
+import Gambar17 from "../../assets/proyek17.png";
+import Gambar18 from "../../assets/proyek18.png";
+import Gambar19 from "../../assets/proyek19.png";
+import Gambar20 from "../../assets/proyek20.png";
+import Gambar21 from "../../assets/proyek21.png";
+import Gambar22 from "../../assets/proyek22.png";
 
 export const dataProyek = [
   {
@@ -60,7 +72,7 @@ export const dataProyek = [
     id: 7,
     gambar: Gambar7,
     nama: "Dashboard Admin Versi 2.0",
-    kategori: "UI",
+    kategori: "Website",
     tautan: "https://github.com/fifovalle/ATM-SEDERHANA.git",
   },
   {
@@ -81,8 +93,93 @@ export const dataProyek = [
     id: 10,
     gambar: Gambar10,
     nama: "Landing Page Sayuran",
-    kategori: "UI",
+    kategori: "Website",
     tautan: "https://github.com/fifovalle/WEBSITE-LANDING-PAGE.git",
+  },
+  {
+    id: 11,
+    gambar: Gambar11,
+    nama: "Sistem Pengaturan",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-PENGATURAN-SISTEM.git",
+  },
+  {
+    id: 12,
+    gambar: Gambar12,
+    nama: "Navigasi Bar",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-NAVIGASI-BAR.git",
+  },
+  {
+    id: 13,
+    gambar: Gambar13,
+    nama: "Navigasi Bar Versi 2.0",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-NAVIGASI-BAR-VERSI-2.0.git",
+  },
+  {
+    id: 14,
+    gambar: Gambar14,
+    nama: "Formulir Pengecekan Kata Sandi",
+    kategori: "UI",
+    tautan:
+      "https://github.com/fifovalle/UI-FORMULIR-PENGECEKAN-KATA-SANDI.git",
+  },
+  {
+    id: 15,
+    gambar: Gambar15,
+    nama: "Pemuat",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-PEMUAT.git",
+  },
+  {
+    id: 16,
+    gambar: Gambar16,
+    nama: "Hover Kartu Rincian",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-HOVER-KARTU-RINCIAN.git",
+  },
+  {
+    id: 17,
+    gambar: Gambar17,
+    nama: "Pemuat Versi 2.0",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-PEMUAT-VERSI-2.0.git",
+  },
+  {
+    id: 18,
+    gambar: Gambar18,
+    nama: "Pemuat 3D",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-PEMUAT-3D.git",
+  },
+  {
+    id: 19,
+    gambar: Gambar19,
+    nama: "Kartu Produk",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-KARTU-PRODUK.git",
+  },
+  {
+    id: 20,
+    gambar: Gambar20,
+    nama: "Produk",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-PRODUK.git",
+  },
+  {
+    id: 21,
+    gambar: Gambar21,
+    nama: "Permainan Ular Neon",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/PERMAINAN-ULAR-NEON.git",
+  },
+  {
+    id: 22,
+    gambar: Gambar22,
+    nama: "Teks Glitch Hover",
+    kategori: "UI",
+    tautan: "https://github.com/fifovalle/UI-TEKS-GLITCH-HOVER.git",
   },
 ];
 
